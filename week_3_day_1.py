@@ -81,8 +81,7 @@ number4= 123.33
 number5= 4555
 print ("She was born in " +str(date_of_birth) +" and she weight " +str(number2) + " ounces") 
 print(f"the date of birth is {date_of_birth} and the number is {number2} and also {number3} and the number is {number4} and the number is {number5}")
-print (f"{name} was the best coder on the team and could write {number} lines of code every day.git status
-       ")
+print (f"{name} was the best coder on the team and could write {number} lines of code every day.git status")
 
 
 
@@ -179,19 +178,35 @@ print (f"{name} was the best coder on the team and could write {number} lines of
 
 ##########################################################################################
 # #addition
+print(2+1)
 # #multiplication
+print(2*2)
 # #division
+print(6/2)
 # #modulo
+print(7%4) #remainder of 7 is divided by 4
 # #powers
+print(2**3) # 2 to the power of 3
 # #get the max and min of a number
+print ("the max of 2 and 3",max(2,3))
+print ("the min of 2 and 3",min(2,3))
 # #round a number
+print("round 3,9 is",round(9,3))
 # # absolute value
+print("the absolute value of -3 is ",abs(-3))
 # # order of operations
+print("2 +10*10 +3 is",2+10*10+3)
+
+
+
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print("the floor method of 3.7 is",floor(3.7))
 # #ceil method
+print("the ceiling method of 3.7 is ",ceil (3.7))
+
 # #sqrt method
 
 
@@ -212,16 +227,23 @@ print (f"{name} was the best coder on the team and could write {number} lines of
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+name = input("what is your name")
 # # basic math calculator
 # #ask the user for 2 numbers
+num1 = int( input ("enter a number")) 
+num2 = int(input ("enter another number"))
 # # print out a statement where you:
+print (num1+num2 )
 # # add them together
 # #multiply
+print (num1 * num2)
 # # find the max number
+print(max(num1,num2))
 # # find the remainder of the numbers
+print(num1%num2)
 # #round one number
-
-
+print(round(num1))
+ 
 
 
 
