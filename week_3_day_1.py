@@ -244,21 +244,24 @@ print(num1%num2)
 # #round one number
 print(round(num1))
  
-
-
-
-
-
-
+name = input("what is your name?")
+num1 = int( input ("enter a number")) 
+num2 = int(input ("enter another number"))
+print (num1 - num2)
+print (num1/num2)
+print (min(num1,num2))
+print (max(num1,num2))
+print (abs(num1))
+print ()
 ##########################################################################################
 # # mad libs game
 # print("Roses are {color}")
 # print("{plural noun} are blue")
 # print("I love {celebrity}")
 # # On to codehs.com
-
-
-
+print ("Roses are red")
+print ("Violets are blue")
+print ("I love Lana del Rey")
 
 
 
