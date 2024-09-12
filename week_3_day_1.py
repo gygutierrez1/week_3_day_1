@@ -259,10 +259,10 @@ print ()
 # print("{plural noun} are blue")
 # print("I love {celebrity}")
 # # On to codehs.com
-print ("Roses are red")
-print ("Violets are blue")
-print ("I love Lana del Rey")
-
-
-
+color= input("enter a color")
+plural_noun = input("enter a plural noun")
+celebrity = input ("enter a celebrity")
+print("Roses are {color}")
+print("{plural noun} are blue")
+print("I love {celebrity}")
 
